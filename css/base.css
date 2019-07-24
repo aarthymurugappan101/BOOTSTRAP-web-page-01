@@ -1,0 +1,37 @@
+a > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+a.nav-link{
+    color: white;
+}
+div.jumbotron {
+    height: 260px;
+    background: url(../image/jumbotron_bg.jpg);
+    background-position: 0% 25%;
+    background-size: auto;
+    -webkit-text-stroke: 1px white;
+    font-weight: bolder;
+    font-size: 70px;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+div.jumbotron > a{
+    position: relative;
+    left: 45%;
+    top: 25px;
+}
+div.col-md-12 > h1{
+    text-align: center;
+}
+h3.card header{
+    text-align: center;
+}
+div.footer{
+    position: absolute;
+    width: 100%;
+}
+div.card-image{
+    position: relative;
+    left: 40%;
+} 
